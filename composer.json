@@ -1,0 +1,33 @@
+{
+  "name": "wicool/laravel-filters",
+  "description": "A Laravel package to make it easy to consult eloquente",
+  "type": "package",
+  "license": "MIT",
+  "version": "1.0",
+  "keywords": [
+    "laravel",
+    "package"
+  ],
+  "require": {
+    "php": ">=7.3.0"
+  },
+  "authors": [
+    {
+      "name": "Flaviano Honorato",
+      "email": "flaviano.honorato@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Wicool\\LaraFilter\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wicool\\LaraFilter\\Providers\\LaraFilterServiceProvider"
+      ]
+    }
+  }
+}
