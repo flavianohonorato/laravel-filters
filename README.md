@@ -10,10 +10,10 @@ composer require wicool/laravel-filters
 ## How to use:
 
 - Model `app/Models/User.php`
-```
+```php
 <?php
 
-namespace App\User;
+namespace App\Models\User;
 
 use Illuminate\Database\Eloquent\Model;
 use Wicool\LaraFilter\LaraFilterTrait;
@@ -40,7 +40,7 @@ class User extends Model
 - Controller `app/Http/Controllers/UserController.php`
 ###### You only need to pass the parameters via request in the controller scope filter.
 
-```
+```php
 <?php
 
 namespace App\Http\Controllers;
