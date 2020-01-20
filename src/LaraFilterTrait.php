@@ -1,6 +1,6 @@
 <?php
 
-namespace Wicool;
+namespace Wicool\LaraFilter;
 
 trait LaraFilterTrait
 {
